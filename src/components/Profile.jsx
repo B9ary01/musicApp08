@@ -10,6 +10,7 @@ export default class Profile extends PureComponent {
 
     return (
         <>
+         <h1> Sabin Rai</h1>
         <img
         src= {nepImg}
         width="135"
@@ -26,6 +27,8 @@ export default class Profile extends PureComponent {
        </ul>
     
 <hr></hr>
+
+<h1> Dimash Kudaibergen</h1>
           <img
         src= {singerImg}
         width="135"
@@ -34,7 +37,7 @@ export default class Profile extends PureComponent {
       />
       <p>Dinmukhammed Kanatuly Kudaibergen (Kazakh: Дінмұхаммед Қанатұлы Құдайберген, Dınmūhammed Qanatūly Qūdaibergen), born 24 May 1994, known professionally as Dimash Kudaibergen, is a Kazakh singer, songwriter, and multi-instrumentalist. He is university-trained in classical as well as contemporary music, and is known for his exceptionally wide vocal range.
         He has performed songs in thirteen languages.</p>
-        <h2> Dimash Kudaibergen</h2>
+       
         <ul>
         
          {songs.map(song => <li key={song.id}>{song.name}</li>)}

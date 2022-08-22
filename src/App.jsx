@@ -10,12 +10,9 @@ export default function App({name,song}){
    return ( 
    <> 
    <Header/>
-   
 
-<Profile />
-
-
-  
+   <Profile />
+   <Songs/>
    
    </>
    
