@@ -14,7 +14,7 @@ export default class Header extends PureComponent {
           height="162"
           alt="peak img"
         />
-        Emoji Search
+        Music App
         <img
           src={nepImg}
           width="232"
