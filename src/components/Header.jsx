@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import "./Header.css";
-import peakImg from "../assets/peak.jpg"
-import nepImg from "../assets/himal.jpg"
+import peakImg from "../assets/guitar.jpeg"
+import nepImg from "../assets/mus.jpeg"
 
 
 export default class Header extends PureComponent {
@@ -10,14 +10,14 @@ export default class Header extends PureComponent {
       <header className="component-header">
         <img
           src= {peakImg}
-          width="238"
-          height="162"
+          width="220"
+          height="142"
           alt="peak img"
         />
         Music App
         <img
           src={nepImg}
-          width="232"
+          width="220"
           height="142"
           alt=""
         />

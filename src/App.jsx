@@ -10,10 +10,10 @@ export default function App({name,song}){
    return ( 
    <> 
    <Header/>
+   
 
 <Profile />
 
-<Songs name="Sabin Rai"/>
 
   
    
