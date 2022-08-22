@@ -5,8 +5,8 @@ import singerImg from "../assets/dim.jpeg"
 
 export default class Profile extends PureComponent {
   render() {
-    const songs = [{id:1,name:"SOS"}, {id:2,name:"Ognie Pietra"}];
-    const songSabin = [{id:1,name:"Timi Nai Hau"}, {id:2,name:"Samjhana"}];
+    const songs = [{id:1,name:"SOS", relDate:"2017/02"}, {id:2,name:"Ognie Pietra" ,relDate:"2020/03"}];
+    const songSabin = [{id:1,name:"Timi Nai Hau", relDate:"2010/05"}, {id:2,name:"Samjhana", relDate:"2009/09"}];
 
     return (
         <>
@@ -23,7 +23,7 @@ export default class Profile extends PureComponent {
           Rai known for his stage performances and the interest he brings in his old songs by singing in different style. Now he has his own band called "Sabin Rai and The Pharaoh.</p>
           <ul>
         
-        {songSabin.map(song => <li key={song.id}>{song.name}</li>)}
+        {songSabin.map(song => <li key={song.id}>{song.name} {"-"}  {song.relDate}</li>)}
        </ul>
     
 <hr></hr>
@@ -40,7 +40,7 @@ export default class Profile extends PureComponent {
        
         <ul>
         
-         {songs.map(song => <li key={song.id}>{song.name}</li>)}
+         {songs.map(song => <li key={song.id}>{song.name} {"-"} {song.relDate}</li>)}
         </ul>
      
 </>

@@ -4,13 +4,13 @@ import rajImg from "../assets/raju.jpeg"
 
 export default class Songs extends PureComponent {
   render() {
-    const songs = [{id:1,name:"Timilai Dekhara"}, {id:2,name:"Choto chha Jindagi"}];
+    const songs = [{id:1,name:"Timilai Dekhara" ,date:"2015"}, {id:2,name:"Choto chha Jindagi",date:"2011"}];
 
     return (
 
         <>
      <hr></hr>
-        <h2> Raju</h2>
+        <h1> Raju Lama</h1>
         <img
         src= {rajImg}
         width="135"
@@ -23,7 +23,7 @@ export default class Songs extends PureComponent {
         Lama is currently based in the US and Nepal. He is one of the coaches in The Voice of Nepal.</p>
         <ul>
         
-         {songs.map(song => <li key={song.id}>{song.name}</li>)}
+         {songs.map(song => <li key={song.id}>{song.name} {"- "} {song.date}</li>)}
         </ul>
      
         
