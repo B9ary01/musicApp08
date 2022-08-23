@@ -23,9 +23,8 @@ export default class Songs extends PureComponent {
         Lama is currently based in the US and Nepal. He is one of the coaches in The Voice of Nepal.</p>
         <ul>
         
-         {songs.map(song => <li key={song.id}>{song.name} {"- "} {song.date}</li>)}
+         {songs.map(song => <li key={song.id}>{song.name} {"-"} {song.date}</li>)}
         </ul>
-     
         
         </>
         
