@@ -4,10 +4,11 @@ import {Routes, Route} from "react-router-dom";
 
 import axios from "axios";
 
-
+import Header from "./layouts/Header";
 import About from "./components/About";
 import Home from "./components/Home";
 import Show from "./components/Show";
+
 
 import"./App.css"
 
@@ -35,11 +36,13 @@ function handleSearch(userInput){
    <> 
    <Routes>
 
-<Route path="/" element={<h1>index page</h1>} />
+<Route path="/" element={<Header/>} >
 
 <Route path="/show" element={<Show/>} />
-<Route path="/home" element={<Home/>} />
-  <Route path="/about" element={<About/>} />
+    </Route>
+
+<Route index element={<Home/>} />
+<Route path="/about" element={<About/>} />
   
 
 

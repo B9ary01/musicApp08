@@ -1,9 +1,23 @@
 import React from "react";
+import { Link,Outlet } from "react-router-dom";
 
 const Home=()=>{
    
     return(
-    <h1>this is Home page</h1>
+        <>
+    <h1>Welcome to BongCloud Music App</h1>
+    <nav>
+        <Link to="classsical">Classical</Link>
+        <br></br>
+
+        <Link to="pop">Pop</Link>
+        <br></br>
+        <Link to="opera">Opera</Link>
+        <br></br>
+    </nav>
+
+     <Outlet/>
+     </>
 
 
     )
