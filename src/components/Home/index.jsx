@@ -15,6 +15,8 @@ const Home=()=>{
         <br></br>
         <Link to="opera">Opera</Link>
         <br></br>
+        <Link to="show">Show</Link>
+        <br></br>
     </nav>
 
      <Outlet/>

@@ -14,7 +14,7 @@ const About=()=>{
 
    <h1>About Us</h1>
     <Header/>
-    <button onClick={handleClick}>Go show page</button>
+    <button onClick={handleClick}>Go back to Show</button>
 
     </>
 
