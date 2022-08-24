@@ -28,4 +28,5 @@ const SearchForm=({handleSearchSubmission})=>{
     )
 }
 
-export default SearchForm
+
+export default SearchForm;

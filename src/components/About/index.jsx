@@ -4,7 +4,7 @@ const About=()=>{
    
     return(
        
-    <h1>about page</h1>
+    <h1>this is about page</h1>
 
     )
 
